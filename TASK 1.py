@@ -1,6 +1,5 @@
 try:
     with open('sample.txt', 'r') as file:
-        print("output 1")
         print("Reading file content:")
         i = 1
         for line in file:
